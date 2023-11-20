@@ -1,0 +1,88 @@
+/* The appearance of an old school simple html website */
+
+.about {
+    margin: 0;
+    background-color: black;
+    background-image: url(../../assets/background/dungeon.jpg);
+    background-repeat: repeat;
+    background-size: 200px;
+    text-shadow: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about, #debug {
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: none;
+}
+
+.aboutme-logo {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    margin-top: 20px;
+}
+
+.aboutme-separator {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    margin-top: 10px;
+}
+
+.about h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: none;
+    text-align: center;
+    color: #000099;
+    margin: 0;
+}
+
+.about h2 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.about a {
+    color: #000099;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.about a:hover {
+    text-decoration: underline;
+}
+
+.about p {
+    color: #fff;
+}
+
+.aboutme-section {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.about img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.torch-left, .torch-right {
+    display: inline-block;
+    width: 20px;
+    height: auto;
+}
+
+.torch-right {
+    margin-left: 10px;
+}
+
+.aboutme-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
