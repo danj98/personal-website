@@ -63,7 +63,7 @@ function Home() {
                   This is what I am currently working on for my master's thesis in software engineering.
                   It has a focus on adaptive planning for multi-agent robotic systems.
                   <br />
-                  <a target="_blank" rel="noreferrer" href="https://github.com/danj98/portfolioWebsite">
+                  <a target="_blank" rel="noreferrer" href="https://github.com/danj98/personal-website">
                     <h3>☾ This website</h3>
                   </a>
                   This website is built using React and TypeScript. It serves as a portfolio, practice, and a creative outlet for me.
