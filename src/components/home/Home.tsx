@@ -22,7 +22,7 @@ function Home() {
                   <p>This is the personal website of me: Dan Joar Heimvik. It serves as a place for me to introduce myself and post my projects.</p>
                   <p>
                     I am a software developer currently studying a master's degree in software engineering at UiB in Bergen, Norway.
-                    You can read more about me <a href="/about">here</a>!
+                    You can read more about me or this website <a href="/about">here</a>!
                   </p>
                   <span>Some quick facts:<br /></span>
                   <ul style={{marginBlockStart: "5px"}}>
@@ -30,13 +30,15 @@ function Home() {
                     <li>I currently live in Bergen, Norway.</li>
                     <li>I am studing a master's degree in software engineering at the University of Bergen.</li>
                     <li>I have a bachelor's in cybersecurity from UiB.</li>
-                    <li>I am a volunteer at <a href="https://fribyte.no" target="_blank">friByte</a>.</li>
+                    <li>I am a volunteer at <a href="https://fribyte.no" target="_blank" rel="noreferrer">friByte</a>.</li>
                   </ul>
                 </div>
                 <div className="marquee" style={{ marginTop: "10px", overflow: "hidden", maxWidth: "675px" }}>
                   <p>
-                    i have absolutely no idea what i am doing.
-                     is frontend development just glueing stuff together until it looks presentable? thats at least what i have been doing so far.
+                    Every good website needs a marquee. I had to make my own. You are welcome to read it all. Or you can just ignore it.
+                    The rest is just placeholder text. I might put something interesting here later. Or I might not. Who knows?
+                    Here we go: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit corporis perspiciatis esse sequi eaque ea blanditiis doloribus modi ab error incidunt aperiam, debitis porro iusto repudiandae commodi facere fuga voluptates!
+                    Are you still reading?
                   </p>
                 </div>
                 <div className="box" id="blog">
@@ -44,33 +46,33 @@ function Home() {
                   <h2 style={{ display: "inline" }}>Blog</h2>
                   <br />
                   <p>
-                    I have a blog where I write about various topics. You can find it <a href="https://blog.heimvik.me" target="_blank">here</a>.
+                    I DO NOT have a blog where I write about various topics. You can't find it <a href="https://blog.heimvik.me" target="_blank" rel="noreferrer">here</a> (yet).
                   </p>
                 </div>
                 <div className="box" id="projects">
                   <img style={{verticalAlign: "sub", marginRight: "5px"}} src={moon} className="moon-icon" />
                   <h2 style={{ display: "inline" }}>Projects</h2>
                   <br />
-                  <br />
                   <p>
                     Here are some of the projects I have been working on recently.
                     You can find more of my projects on the <a href="/projects">projects page</a>.
                   </p>
-                  <a target="_blank" rel="noreferrer" href="https://github.com/danj98/placeholder">
-                    <h3>☾ Placeholder 1</h3>
+                  <a target="_blank" rel="noreferrer" href="https://github.com/danj98/adaptiveMRS">
+                    <h3>☾ My master's project</h3>
                   </a>
+                  This is what I am currently working on for my master's thesis in software engineering.
+                  It has a focus on adaptive planning for multi-agent robotic systems.
                   <br />
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint voluptas minus ut eligendi consectetur odio.
-                  <a target="_blank" rel="noreferrer" href="https://github.com/danj98/placeholder">
-                    <h3>☾ Placeholder 2</h3>
+                  <a target="_blank" rel="noreferrer" href="https://github.com/danj98/portfolioWebsite">
+                    <h3>☾ This website</h3>
                   </a>
+                  This website is built using React and TypeScript. It serves as a portfolio, practice, and a creative outlet for me.
                   <br />
-                  Esse numquam repudiandae a non corporis dolor laboriosam totam. Accusamus, illum modi, quis fugit dolor repellat porro ex a, sit distinctio corrupti.
-                  <a target="_blank" rel="noreferrer" href="https://github.com/danj98/placeholder">
-                    <h3>☾ Placeholder 3</h3>
+                  <a target="_blank" rel="noreferrer" href="https://github.com/danj98/ArduinoFaceTracker">
+                    <h3>☾ Targeting system</h3>
                   </a>
-                  <br />
-                  Lorem ipsum dolor sit amet, c ...
+                  This project is an example of some of my work with electronics and microcontrollers.
+                  It combines an Arduino, a camera, and a laser to create a targeting system using computer vision.
                 </div>
               </td>
               <td id="menutd" style={{maxWidth: "225px"}}>
@@ -86,23 +88,29 @@ function Home() {
                   <a className="navlink" href="/projects">✧ Projects</a>
                   <br />
                   <br />
-                  <a className="navlink" href="https://github.com/danj98" target="_blank">✧ Github</a>
+                  <a className="navlink" href="https://djh.123guestbook.com/">✧ Sign my guestbook!</a>
                   <br />
-                  <a className="navlink" href="https://www.linkedin.com/in/dan-joar-heimvik-9b637a202/" target="_blank">✧ LinkedIn</a>
                   <br />
-                  <a className="navlink" href="mailto:danjoar@heimvik.me" target="_blank">✧ Email</a>
+                  <a className="navlink" href="https://github.com/danj98" target="_blank" rel="noreferrer">✧ Github</a>
+                  <br />
+                  <a className="navlink" href="https://www.linkedin.com/in/dan-joar-heimvik-9b637a202/" target="_blank" rel="noreferrer">✧ LinkedIn</a>
+                  <br />
+                  <a className="navlink" href="mailto:danjoar@heimvik.me" target="_blank" rel="noreferrer">✧ Email</a>
                 </div>
                 <div className="box">
                   <h2 style={{ display: "inline" }}>Links</h2>
                   <br />
-                  <a href="https://archlinux.org" target="_blank">✧ Arch Linux</a>
+                  <a href="https://archlinux.org" target="_blank" rel="noreferrer">✧ Arch Linux</a>
                   <br />
-                  <a href="https://www.reddit.com/r/unixporn/" target="_blank">✧ r/unixporn</a>
+                  <a href="https://www.fribyte.no" target="_blank" rel="noreferrer">✧ friByte</a>
                   <br />
-                  <a href="https://www.reddit.com/r/vim/" target="_blank">✧ r/vim</a>
+                  <a href="https://www.reddit.com/r/unixporn/" target="_blank" rel="noreferrer">✧ r/unixporn</a>
                   <br />
-                  <a href="https://www.reddit.com/r/linux/" target="_blank">✧ r/linux</a>
+                  <a href="https://github.com/codecrafters-io/build-your-own-x" target="_blank" rel="noreferrer">✧ Build your own X</a>
+                  <br />
+                  <a href="https://forum.marianabay.com/" target="_blank" rel="noreferrer">✧ Mariana Bay</a>
                 </div>
+                <a href="https://forum.marianabay.com"><img alt="Mariana Bay" src="https://forum.marianabay.com/media/mariana-bay-webring-gif.866/full" style={{width: '90%', marginLeft: '10px'}} /></a>
                 <div className="box">
                   <a href='https://www.free-website-hit-counter.com'>
                     <img src='https://www.free-website-hit-counter.com/c.php?d=5&id=158977&s=45' alt='Free Website Hit Counter' />

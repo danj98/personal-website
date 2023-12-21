@@ -1,0 +1,72 @@
+.taskbar {
+    background-color: #c0c0c0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    padding: 4px;
+}
+
+.s-button {
+    background-color: #c0c0c0;
+    color: black;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #808080;
+    border-right: 1px solid #808080;
+    padding: 3px 6px;
+    font-family: 'MS Sans Serif', Arial, sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.s-button:active {
+    border-top: 1px solid #808080;
+    border-left: 1px solid #808080;
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #fff;
+    color: black;
+}
+
+.s-button img {
+    vertical-align: middle;
+    width: 20px;
+}
+
+.taskbar-windows {
+    display: flex;
+    margin-left: 20px;
+}
+
+.taskbar-window {
+    background-color: #c0c0c0;
+    color: black;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #808080;
+    border-right: 1px solid #808080;
+    margin-right: 5px;
+    padding: 2px 5px;
+    font-family: 'MS Sans Serif', Arial, sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    min-width: 150px;
+    height: 20px;
+}
+  
+.taskbar-window:active {
+    border-top: 1px solid #808080;
+    border-left: 1px solid #808080;
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #fff;
+}  
+
+.taskbar-clock {
+    margin-left: auto;
+    margin-right: 20px;
+    font-family: 'MS Sans Serif', Arial, sans-serif;
+    font-size: 14px;
+}

@@ -16,3 +16,8 @@ code {
   font-family: 'pixel-nes';
   src: url(./fonts/Pixel_NES.otf);
 }
+
+@font-face {
+  font-family: 'vt323';
+  src: url(./fonts/VT323-Regular.ttf);
+}

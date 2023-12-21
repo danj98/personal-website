@@ -1,88 +1,141 @@
-/* The appearance of an old school simple html website */
-
-.about {
-    margin: 0;
-    background-color: black;
-    background-image: url(../../assets/background/dungeon.jpg);
-    background-repeat: repeat;
-    background-size: 200px;
-    text-shadow: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .about, #debug {
     font-family: 'Times New Roman', Times, serif;
     text-shadow: none;
 }
 
-.aboutme-logo {
+.about {
+    background-color: black;
+    background-image: url(../../assets/background/dungeon.jpg);
+    background-repeat: repeat;
+    background-size: 200px;
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: 20%;
-    margin-top: 20px;
-}
-
-.aboutme-separator {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: 20%;
-    margin-top: 10px;
-}
-
-.about h1 {
-    font-family: 'Times New Roman', Times, serif;
-    text-shadow: none;
-    text-align: center;
-    color: #000099;
-    margin: 0;
-}
-
-.about h2 {
-    font-family: 'Times New Roman', Times, serif;
+    flex-direction: column;
+    text-decoration: none;
 }
 
 .about a {
-    color: #000099;
+    color: #993399;
     text-decoration: none;
-    margin-right: 5px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-.about a:hover {
-    text-decoration: underline;
+.about a, .about p {
+    font-size: 1.2em;
+}
+
+.about h1, .about p {
+    color: #993399;
+    margin-bottom: 0;
 }
 
 .about p {
-    color: #fff;
+    color: #fff; 
 }
 
-.aboutme-section {
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    text-align: center;
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
 }
 
-.about img {
-    overflow-clip-margin: content-box;
-    overflow: clip;
+.aboutme-logo {
+    margin-top: 10px;
+    width: 40%;
 }
 
-.torch-left, .torch-right {
-    display: inline-block;
-    width: 20px;
+.aboutme-links a {
+    margin: 0 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.aboutme-links a:hover {
+    text-decoration: underline;
+}
+
+.aboutme-separator {
+    margin: 10px auto 0 auto;
+    width: 30%;
+}
+
+.layout-table {
+    width: 100%;
+    height: 100vh;
+}
+
+.side-column, .middle-column {
+    vertical-align: middle;
+}
+
+.side-column {
+    width: 20%;
+}
+
+.side-column .wiz {
+    width: 400px;
+    height: auto;
+    margin-left: 30px;
+}
+
+.side-column .crystal {
+    width: 200px;
     height: auto;
 }
 
-.torch-right {
-    margin-left: 10px;
+.middle-column {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.aboutme-links {
+.image-container {
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    height: 100%;
     justify-content: center;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
 }
+
+.header-with-torches {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.torch-l .torch-r {
+    margin: 0 10px;
+}
+
+.torch-r {
+    transform: scaleX(-1);
+}
+
+.section {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section h1, .section img {
+    display: block;
+}
+
+.section h1 {
+    margin: 0;
+}
+
+.aboutme-footer {
+    text-align: center;
+    color: #fff;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.ad {
+    margin: 20px 0;
+}
+

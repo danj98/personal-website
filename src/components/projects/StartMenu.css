@@ -1,0 +1,26 @@
+.start-menu {
+  background-color: #c0c0c0;
+  border: 2px outset #fff;
+  position: fixed;
+  bottom: 35px; 
+  left: 0;
+  width: 200px;
+  padding: 5px;
+  box-shadow: 2px 2px 0 #000;
+  z-index: 2; 
+}
+
+.menu-item {
+  display: block;
+  background-color: #c0c0c0;
+  color: black;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-family: 'MS Sans Serif', Arial, sans-serif;
+  font-size: 14px;
+  border-bottom: 1px solid #fff;
+}
+
+.menu-item:hover {
+  background-color: #a0a0a0;
+}

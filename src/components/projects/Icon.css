@@ -1,0 +1,10 @@
+.icon {
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}

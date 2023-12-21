@@ -39,13 +39,11 @@
 
 .main tbody {
   display: table-row-group;
-  vertical-align: middle;
   border-color: inherit
 }
 
 .main td {
   display: table-cell;
-  vertical-align: inherit;
 }
 
 
