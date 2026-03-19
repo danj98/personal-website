@@ -32,14 +32,14 @@ const Resume = () => {
   const [currentCommandIndex, setCurrentCommandIndex] = useState(0);
   const [output, setOutput] = useState<JSX.Element[]>([]);
   const [isTyping, setIsTyping] = useState(false);
-  const endRef = useRef<HTMLDivElement>(null);
+  const terminalRef = useRef<HTMLDivElement>(null);
   const [isLoading, setIsLoading] = useState(true);
 
   const handleLoaded = () => setIsLoading(false);
 
   useEffect(() => {
-    if (endRef.current) {
-      endRef.current.scrollIntoView({ behavior: "smooth" });
+    if (terminalRef.current) {
+      terminalRef.current.scrollTop = terminalRef.current.scrollHeight;
     }
   }, [output]);
 
@@ -84,7 +84,7 @@ const Resume = () => {
               </div>
             </div>
             <div className="terminal-container">
-              <div className="terminal">
+              <div className="terminal" ref={terminalRef}>
                 {output}
                 {isTyping && sections && (
                   <ReactTypingEffect
@@ -95,7 +95,6 @@ const Resume = () => {
                     typingDelay={2000}
                   />
                 )}
-                <div ref={endRef} />
               </div>
             </div>
             <div className="persona">
