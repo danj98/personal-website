@@ -8,7 +8,7 @@ total 1
 ## head
 
 Dan Joar Heimvik
-Software Developer
+Cyber Security Specialist
 
 ## tail
 
@@ -28,19 +28,29 @@ University of Bergen
 ## work
 
 --== Work experience ==--
+Cyber Security specialist (full-time) - Norsk Hydro ASA
+July 2024 - Currently
+- Cyber security and systems administrations of IT and OT technologies within on-prem and cloud ICS networks around the world.
+- Working with developers to develop secure coding practices and DevSecOps for industrial control systems combining cloud technologies and on-prem deployments.
+- Familiarity with cyber security risk assessments using standards such as IEC 62443 and CIS series.
+- Providing guidance on cyber security related topics for systems administration.
 Software developer (summer intern/part-time) - Sikt
 Jun 2023 - Dec 2023
+- Full-stack development within a team to develop web-services for the education and research sectors.
 Process operator (summer intern/on-call employee) - Hydro Husnes
 Apr 2017 - Aug 2023
+- Knowledge of processes and operations from a floor-worker's point-of-view; incredibly important when designing security solutions to avoid "shadow usage" and hindering operations.
 
 ## skills
 
 --== Skills ==--
+-- Technologies --
+Windows systems administration, Linux (including enterprise) administration, DevOps/DevSecOps, Azure & AD, K8S, and other related topics.
 -- Programming languages --
 - Most experience:
-Java, Kotlin, Python, C++, TypeScript, Bash, SQL, HTML, CSS
+Java, Kotlin, Python, Bash, SQL
 - Some experience:
-C, C++, PHP, Assembly, Haskell, Rust
+C, C++, PHP, Assembly, Haskell, Rust, Java/TypeScript, CSS, HTML
 ...
 -- Frameworks --
 Most experience:
@@ -49,12 +59,12 @@ Some experience:
 Flask, Django, AngularJS, React Native
 ...
 -- Other --
-GNU/Linux, *nix, Git, Docker, CI/CD, Scrum, Azure, and a lot of other stuff
+IEC 62443 series of standards, CIS standards and benchmarks, vulnerability handling, alert remediation, risk assessments, etc.
 
 ## interests
 
 --== Interests ==--
-Programming, electronics, gaming, music production, reading, hiking, skiing
+Rock climbing, programming, electronics, gaming, reading, hiking, skiing
 
 ## languages
 
