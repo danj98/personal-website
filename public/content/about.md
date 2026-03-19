@@ -1,9 +1,7 @@
 ## Who am I?
 
-I am a 25 year old software developer from Norway. I am currently studying a master's degree in software engineering at the University of Bergen.
-I have a bachelor's degree in cybersecurity from the same university.
-I am currently working as a software developer at [Sikt](https://www.sikt.no/).
-I am also a volunteer at [friByte](https://fribyte.no), a student organization at UiB.
+I am 27 years old and work with cyber security and systems administration for ICS-systems in Norway. I have a bachelor's degree in cybersecurity and a master's degree in software engineering from the University of Bergen.
+I am currently working as a Cyber Security Specialist at [Norsk Hydro](https://www.hydro.com/).
 If you are interested in more details about my education and work experience, you can check out my [CV](/resume).
 My contact info is also available there.
 
@@ -18,31 +16,21 @@ All the pages are modelled after different styles of websites from the 90s and e
 Therefore, an obnoxious amount of gifs felt natural. The page is made using React,
 and the source code is available on [GitHub](https://github.com/danj98/personal-website).
 If you are interested in more details about the development, please do not ask me
-because I have no clue what I am doing.
+because I am not a web developer and I'm making stuff up as I go along.
 
 ## Interests
 
-Most of my time is probably spent on my computer. Either playing video games, programming, or watching/reading stuff.
-I also like working with electronics and microcontrollers, and designing and printing parts for it with my 3d-printer.
-I am also practicing a little bit of music production, but I am pretty shit at it.
+My interests include topics related to computing, including programming stuff for myself, working with microcontrollers and electronics, and operating home servers for various services (no it's not torrenting).
 
-On the occasions that I get away from my computer, I like hiking, skiing, and generally being outdoors.
-I also go to the gym regularly. Just so that I don't die.
-
-I also like reading. Some of my favorite books include fantasy series like the Stormlight Archives,
-or stoic philosophy like Marcus Aurelius and Seneca.
+I also love being in nature, hiking, and rock climbing, including bouldering, sports-climbing, and trad-climbing. I think this makes up for the computer-stuff so we're operating somewhere around neutral on the coolness-scale.
 
 ## What's next?
 
-The future is uncertain. I have no idea what I will be doing in 5 years. I have no idea what I will be doing in 5 months.
-I have no idea what I will be doing in 5 days. The only thing I know is that I will be doing something. And that something will be cool.
-I am currently working on my master's thesis in software engineering. This will hopefully be done by june 2024.
-After that, I will probably be looking for a job if I don't have one already. If you have any cool offers
-working in industrial automation, embedded systems, or IoT, please let me know!
+Currently working full time and have a focus on learning more from my role.
 
 ## Volunteering
 
-As mentioned, I am a volunteer at [friByte](https://fribyte.no), a student organization at UiB.
-We are a group of students who work on various projects, mostly related to software development and system administration
-for other students and student organizations. We also host events and workshops for students. If you are a student in Bergen
-with an interest in IT, you should check us out!
+I was previously a volunteer at [friByte](https://fribyte.no), a student organization at UiB dedicated to providing system administration services to students. They are limited to only using open source software.
+They are a group of students who work on various projects, mostly related to software development and system administration
+for other students and student organizations. They also host events and workshops for students. If you are a student in Bergen
+with an interest in IT, you should check it out. If you work for a company, you should consider sponsoring some of their events.
