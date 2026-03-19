@@ -58,3 +58,39 @@
 .project-modal-body {
   font-family: 'MS Sans Serif', Arial, sans-serif;
 }
+
+.project-modal-content {
+  font-family: 'MS Sans Serif', Arial, sans-serif;
+  font-size: 12px;
+  color: #000;
+  line-height: 1.5;
+}
+
+.project-modal-content h1 {
+  display: none;
+}
+
+.project-modal-content h2 {
+  font-size: 13px;
+  font-weight: bold;
+  margin: 0.8em 0 0.2em;
+}
+
+.project-modal-content p {
+  margin: 0.4em 0;
+}
+
+.project-modal-content ul,
+.project-modal-content ol {
+  padding-left: 1.2em;
+  margin: 0.3em 0;
+}
+
+.project-modal-content li {
+  margin-bottom: 0.2em;
+}
+
+.project-modal-content a {
+  color: #00008b;
+  text-decoration: underline;
+}

@@ -149,3 +149,33 @@
     margin: 20px 0;
 }
 
+.section-body p {
+    color: #fff;
+    font-size: 1.2em;
+    margin-top: 0.6em;
+    margin-bottom: 0;
+}
+
+.section-body a {
+    color: #993399;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.section-body a:hover {
+    text-decoration: underline;
+}
+
+.section-body ul,
+.section-body ol {
+    color: #fff;
+    font-size: 1.2em;
+    padding-left: 1.5em;
+    margin: 0.4em 0;
+}
+
+.section-body li {
+    margin-bottom: 0.3em;
+}
+

@@ -15,6 +15,16 @@ npm test         # Run tests (watch mode)
 npm test -- --watchAll=false  # Run tests once
 ```
 
+## Editing content
+
+Page content lives in `public/content/` as markdown files — no TSX changes needed for text updates:
+
+- `public/content/about.md` — About page sections (`##` headings define each torch-decorated section)
+- `public/content/resume.md` — Resume terminal output (sections map to terminal command outputs; see `COMMAND_SHELLS` in `Resume.tsx` for the key→command mapping)
+- `public/content/projects/project1.md` … `project5.md` — individual project modal content
+
+Markdown is fetched at runtime via `src/hooks/useMarkdown.ts` and parsed by `src/utils/parseAboutMarkdown.ts` / `src/utils/parseResumeMarkdown.ts`. The `About` and `Projects` pages render markdown with `react-markdown` + `remark-gfm`. The `Resume` terminal renders plain text lines (not HTML), so no markdown formatting is applied there.
+
 ## Architecture
 
 The app uses React Router v6 with four top-level routes, each a self-contained page with its own CSS:
