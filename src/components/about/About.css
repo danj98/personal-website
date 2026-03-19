@@ -72,14 +72,24 @@
 }
 
 .side-column .wiz {
-    width: 400px;
+    width: min(400px, 17vw);
     height: auto;
     margin-left: 30px;
 }
 
 .side-column .crystal {
-    width: 200px;
+    width: min(200px, 17vw);
     height: auto;
+}
+
+@media screen and (max-width: 1200px) {
+    .side-column {
+        display: none;
+    }
+
+    .middle-column {
+        width: 80%;
+    }
 }
 
 .middle-column {

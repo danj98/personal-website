@@ -6,7 +6,7 @@ import cyber from "../../assets/gifs/cyberrealmrefer.gif"
 
 function Home() {
   return (
-    <body className="main">
+    <main className="main">
       <div id="container">
         <div id="logo">
           <h1>HEIMVIK.ME</h1>
@@ -161,7 +161,7 @@ function Home() {
           <a href="mailto:danjoar@heimvik.me">danjoar@heimvik.me</a>
         </footer>
       </div>
-    </body>
+    </main>
   )
 }
 

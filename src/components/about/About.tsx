@@ -11,7 +11,7 @@ function About() {
     return (
         <main className="about">
             <table className="layout-table">
-                <tr>
+                <tbody><tr>
                     <td className="side-column">
                         <div className="image-container">
                             <img key={Date.now()} src={wiz} className="wiz" alt="wizard" />
@@ -120,7 +120,7 @@ function About() {
                             <img key={Date.now()} src={crystal} className="crystal" alt="crystal" />
                         </div>
                     </td>
-                </tr>
+                </tr></tbody>
             </table>
             <footer className="aboutme-footer">
                 <img src={ad} className="ad" alt="ad" style={{marginTop: '80px'}} />

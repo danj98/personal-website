@@ -129,7 +129,8 @@
 .main #container, #backside-container {
     position: relative;
     z-index: 1;
-    width: 900px;
+    max-width: 900px;
+    width: calc(100% - 40px);
     margin: 0 auto;
 }
 

@@ -20,7 +20,7 @@ const Taskbar = (props: TaskBarProps) => {
         return () => {
             clearInterval(timer);
         }
-    });
+    }, []);
 
     return (
         <div className="taskbar">

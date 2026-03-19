@@ -143,7 +143,7 @@ const Resume = () => {
               <div className="navigation">
                 <a href="/" className="nav-button">Home</a>
                 <a href="/about" className="nav-button">About</a>
-                <a href="/cv" className="nav-button">CV</a>
+                <a href="/resume" className="nav-button">CV</a>
                 <a href="/projects" className="nav-button">Projects</a>
               </div>
             </div>

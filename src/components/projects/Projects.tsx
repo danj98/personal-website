@@ -4,8 +4,6 @@ import StartMenu from './StartMenu';
 import ProjectModal from './ProjectModal';
 import Icon from './Icon';
 import './Projects.css';
-import { title } from 'process';
-
 
 const icons = [
   {

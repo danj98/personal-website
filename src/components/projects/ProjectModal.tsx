@@ -36,7 +36,6 @@ const projectData: { [key: string]: ProjectDetails } = {
                 </p>
             </>
         ),
-        image: "https://github.com/danj98/ArduinoFaceTracker/raw/master/resources/prototype.jpg"
     },
     project3: {
         title: "Arduino tracker",
@@ -119,7 +118,7 @@ const ProjectModal = (props: ProjectModalProps) => {
             </div>
             <div className="project-modal-body">
                 {project.image && <img src={project.image} alt={project.title} />}
-                <p>{project.description}</p>
+                <div>{project.description}</div>
             </div>
         </div>
     )
