@@ -21,16 +21,16 @@ function Home() {
                   <br />
                   <p>This is the personal website of me: Dan Joar Heimvik. It serves as a place for me to introduce myself and post my projects.</p>
                   <p>
-                    I am a software developer currently studying a master's degree in software engineering at UiB in Bergen, Norway.
+                    I currently work with cybersecurity and systems administration for ICS in Norsk Hydro.
                     You can read more about me or this website <a href="/about">here</a>!
                   </p>
                   <span>Some quick facts:<br /></span>
                   <ul style={{marginBlockStart: "5px"}}>
-                    <li>I am 25 years old.</li>
-                    <li>I currently live in Bergen, Norway.</li>
-                    <li>I am studing a master's degree in software engineering at the University of Bergen.</li>
+                    <li>I am 27 years old.</li>
+                    <li>I currently live in Kvinnherad, Norway.</li>
+                    <li>I have a master's degree in software engineering from the University of Bergen.</li>
                     <li>I have a bachelor's in cybersecurity from UiB.</li>
-                    <li>I am a volunteer at <a href="https://fribyte.no" target="_blank" rel="noreferrer">friByte</a>.</li>
+                    <li>I was a volunteer at <a href="https://fribyte.no" target="_blank" rel="noreferrer">friByte</a>.</li>
                   </ul>
                 </div>
                 <div className="marquee" style={{ marginTop: "10px", overflow: "hidden", maxWidth: "675px" }}>
